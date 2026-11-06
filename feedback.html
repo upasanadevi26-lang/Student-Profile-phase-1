@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="course.html">courses</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+                <li><a href="grades.html">grades</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+<hr>
+<main>
+    <form>
+        <h2>Shere Your Feedback</h2>
+        <p>Please fill in the form below to shere your thoughts about the courses and the portal.</p>
+        <br>
+        <leble for="name">Name:</leble><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <lebel for="Email">Email:</lebel><br>
+        <input type="Email" id="Email" name="Email"><br><br>
+        
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="Phone"><br><br>
+
+        <lable>Gender:</lable><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female"name="gender" value="Female">
+        <label for="female">female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+        <lebel for="course">Select Course:</lebel><br>
+        <select id="course" name="course">
+            <option value="HTML">HTML & Web Fundamentals</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">python</option>
+            <option value="C++">C++</option>
+        </select><br><br>
+        <lebel for="feedback">Your Feedback:</lebel><br>
+        <textarea id="feedback" name="feedback" rows="5" cols="42"></textarea><br>
+
+        <lebel>Rate the portal:</lebel><br>
+        <select id="rating" name="rating">
+        <option value="Excellent">5-Excellent</option>
+        <option value="Excellent">2-Excellent</option>
+        <option value="Excellent">3-Excellent</option>
+        </select><br><br>
+
+         <input type="checkbox" id="subcribe" name="Subscribe">
+         <lebel>Subscribe to newsletter and updates</lebel><br><br>
+
+         <button type="submit" value="Submit">Submit</button>
+         <button  type="reset" value="Reset">Reset</button>
+    </form>
+</main>
+<hr>
+<footer>
+    <p>&copy; 2026 Student Portal. All rights reserved.</p>
+</footer>
+</body>
+</html>
